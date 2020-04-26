@@ -15,15 +15,18 @@ You need below components :
 7. jumper wires
 (Search above components on Google and find out the nearest trusted seller according to your contry. You will find all these components on Amazon as well.)
 
-## 
-
+## ThingSpeak IoT Cloud Platform
+## Key Considerations
 ## Connection Setup
 ![Connection Diagram][conn]
 
 
-## Arduino IDE
-Make sure you have the ESP8266 add-on installed.
-
+## Arduino IDE & Libraries Used
+- Arduino IDE 1.8.2 , Reccomended to use latest
+- Make sure you have the ESP8266 installed (http://arduino.esp8266.com/stable/package_esp8266com_index.json).
+- Libraries used
+-- OneWire
+-- DallasTemperature
 
 [conn]: https://github.com/sujeet-ssv/iot_measure_moisture_level/raw/master/ImageGallery/Connection.JPG
 
