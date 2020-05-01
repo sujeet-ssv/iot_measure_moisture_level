@@ -1,8 +1,8 @@
 # PlantSpeak
 Now don't miss to water your plants, the IoT solution mentioned here will alert/remind you on your mobile via notification.
 
-I will guide through how you can construct IoT solution which can monitor moisture and temperature of your terrace garden seamlessly using Solar Power. This project is powered via solar energy and once it’s up and running barely you have look after it. Well I have this running in my terrace garden from last 3 months without any hitch so far! Refer to the pictures in [ImageGallery](https://github.com/sujeet-ssv/iot_measure_moisture_level/tree/master/ImageGallery).
-In this project Capacitive soil moisture sensor used to sense water/moisture level inside the soil at an interval of every 5 minutes alongwith outdoor temperature using DS18b20 chip.
+I will guide through how you can construct IoT solution which can monitor moisture and temperature of your terrace garden seamlessly using Solar Power. This project is powered via solar energy and once it’s up and running barely you have look after it. Well I have this running in my terrace garden from last 3 months without any hitch so far! Refer to the pictures in [ImageGallery](https://github.com/sujeet-ssv/iot_measure_moisture_level/tree/master/ImageGallery). In this project Capacitive soil moisture sensor used to sense water/moisture level inside the soil at an interval of every 5 minutes alongwith outdoor temperature using DS18b20 chip. 
+
 Capacitive soil sensors are made of corrosion-resistant material and have long service life when compared to resitive sensors. This needs to be kept inserted into the soil around your plants. DS18b20 sensor has  1-Wire interface-and can measure temperatures from -55°C to +125°C with accuracy of ±0.5°C. Each DS8B20 has a unique 64-bit serial address burned in factory, [refer Addressfinder to know this unique address](https://github.com/sujeet-ssv/iot_measure_moisture_level/tree/master/AddressFinder). The sensor data is collected every 5 minutes and sent over to ThingSpeak IoT cloud platform using Esp8266 wifi controller. You can monitor the moisture and temperature level remotely from your mobile device.
 
 ## ESP8266 and ThingSpeak IoT Platform
@@ -57,13 +57,16 @@ You need below components:
 ## Configuration with ThingSpeak Monitor Widget
 ![Configure IoT ThingSpeak Monitor Widget on mobile][mobile-configure]
 
+
 ## Arduino IDE & Libraries Used
 - Arduino IDE 1.8.2 , Recommended to use latest
 - Make sure you have the ESP8266 installed (http://arduino.esp8266.com/stable/package_esp8266com_index.json).
 - Libraries used
--- OneWire
--- DallasTemperature
-## 
+   - OneWire
+   - DallasTemperature
+   
+## Terrace Garden
+![Garden Ideas][garden]
 
 [conn]: https://github.com/sujeet-ssv/iot_measure_moisture_level/raw/master/ImageGallery/Connection.JPG
 [cocopeat]:https://github.com/sujeet-ssv/iot_measure_moisture_level/raw/master/ImageGallery/cocopeat-filler.jpg
@@ -71,3 +74,5 @@ You need below components:
 [proto]: https://github.com/sujeet-ssv/iot_measure_moisture_level/raw/master/ImageGallery/prototype.jpg
 [placement]: https://github.com/sujeet-ssv/iot_measure_moisture_level/raw/master/ImageGallery/assembly-all.jpg
 [assembly]: https://github.com/sujeet-ssv/iot_measure_moisture_level/raw/master/ImageGallery/assembly.jpg
+[garden]: https://github.com/sujeet-ssv/iot_measure_moisture_level/raw/master/ImageGallery/Garden.jpg
+
