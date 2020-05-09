@@ -50,19 +50,23 @@ You need below components:
 
 ## Assembly
 ![Assembly][assembly]
+Make use of Glue gun to seal the Cable openings etc wherever appropriate. 
 
 ## Placement with Sensors, Solar, and Controller
 ![Placement][placement] ![][solar]
+Typical setup , Solar panel fitted East direction facing where it gets 4-5 hrs sunlight.
 
 ## Configuration with ThingSpeak Monitor Widget
 ![Configure IoT ThingSpeak Monitor Widget on mobile][mobile-configure]
+Configuration settings need to be done in Mobile application 'ThingSpeak Monitor Widget'
 
 ## ThingSpeak Monitor Widget
 ![ThingSpeak Monitor Widget on mobile][widget]![][widget2]
+This is how the widget display near real time information on your mobile device.
 
 ## Trend Analytics Temp vs Moisture level
 ![Trend Analytics][trend]
-### In Summer you can observe the perfect curve for Moisture signal decresing linerly as the sun rises and back to > 80% once you water the plant.
+In Summer you can observe the perfect curve for Moisture signal decresing linerly as the sun rises and back to > 80% once you water the plant.
 
 ## Arduino IDE & Libraries Used
 - Arduino IDE 1.8.2 , Recommended to use latest
