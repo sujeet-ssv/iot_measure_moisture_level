@@ -62,6 +62,7 @@ You need below components:
 
 ## Trend Analytics Temp vs Moisture level
 ![Trend Analytics][trend]
+### In Summer you can observe the perfect curve for Moisture signal decresing linerly as the sun rises and back to > 80% once you water the plant.
 
 ## Arduino IDE & Libraries Used
 - Arduino IDE 1.8.2 , Recommended to use latest
