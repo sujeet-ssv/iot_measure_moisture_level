@@ -52,7 +52,7 @@ You need below components:
 ![Assembly][assembly]
 
 ## Placement with Sensors, Solar, and Controller
-![Placement][placement]![][solar]
+![Placement][placement] ![][solar]
 
 ## Configuration with ThingSpeak Monitor Widget
 ![Configure IoT ThingSpeak Monitor Widget on mobile][mobile-configure]
