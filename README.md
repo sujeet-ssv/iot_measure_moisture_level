@@ -43,10 +43,10 @@ You need below components:
 7. Calibrate the Capacitive Soil Sensor and make appropriate changes in Arduino(PlantSpeak_v1.0.ino) sketch. ``` (DrySoilValue = 500; /*insert the capacitive probe inside dry soild and take this reading */ and WaterValue = 350;  /*insert the capacitive probe inside water and take this reading */ ) ```
 
 ## Connection Setup
-![Connection Diagram][conn]<br/>
+![Connection Diagram][conn]
 
 ## Prototype
-![Prototype][proto]
+![Prototype][proto]<br/>
 This is how the end prototype looks like, you can plan to make use of even smaller enclosure case perferably IP65 rated.
 
 ## Assembly
